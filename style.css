@@ -7,6 +7,13 @@ div {
      padding: 10px;
 }
 
+nav.vervecomm-navbar {
+     background-image: url(http://jquery.com/jquery-wp-content/themes/jquery/images/dark-grey-tile.png);
+     border-color: #090909;
+
+     padding-bottom: 10px;
+}
+
 div.container {
      width: 1000px;
 }
@@ -15,6 +22,9 @@ div.site-header {
      background-image: url(images/78_circuitry_1_.jpg);
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
+
+     padding-left: 40px;
+     padding-right: 40px;
 
      padding-bottom: 1px;
 }
