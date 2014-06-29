@@ -1,0 +1,13 @@
+body {
+     background-image: url(images/paper.gif);
+
+     padding: 15px;
+}
+
+div.site-header {
+     background-image: url(images/78_circuitry_1_.jpg);
+     border-radius: 10px;
+
+     padding: 10px;
+     padding-bottom: 1px;
+}
