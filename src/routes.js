@@ -19,7 +19,8 @@ router.get('/*', function(req, res) {
      console.log(req.ip + ' requesting ' + req.url);
      var content;
      try {
-          //req.url=  req.url.replace(/\/../, '');
+          // escape filesystem '../'s
+          req.url=  req.url.replace(/\/\.\./, '');
           content = fs.readFileSync( './src/pages' + req.url + '.htm');
 
           res.render('site.hbs', { content: content }, function(err, html) {
