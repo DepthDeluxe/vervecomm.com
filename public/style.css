@@ -41,9 +41,9 @@ div.site-content {
 }
 
 div.img-container {
-     background-color: white;
-     padding: 15px;
-     border-radius: 10px;
+     width: 100%;
+     margin: 0;
+     padding: 0;
 }
 
 div.content-block {
