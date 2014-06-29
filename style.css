@@ -1,10 +1,14 @@
 body {
-     background-color: #ffffff;
+     background-image: url(images/paper.gif);
      padding: 15px;
 }
 
 div {
      padding: 10px;
+}
+
+div.container {
+     width: 1000px;
 }
 
 div.site-header {
@@ -22,6 +26,20 @@ div.site-footer {
      border-bottom-right-radius: 10px;
 }
 
-div.content {
-     background-image: url(images/paper.gif);
+div.site-content {
+     background-color: #dddddd;
+}
+
+div.img-container {
+     background-color: white;
+     padding: 15px;
+     border-radius: 10px;
+}
+
+div.content-block {
+     background-color: white;
+     border-radius: 10px;
+
+     margin: auto;
+     margin-bottom: 10px;
 }
