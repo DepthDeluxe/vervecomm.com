@@ -1,13 +1,27 @@
 body {
-     background-image: url(images/paper.gif);
-
+     background-color: #ffffff;
      padding: 15px;
+}
+
+div {
+     padding: 10px;
 }
 
 div.site-header {
      background-image: url(images/78_circuitry_1_.jpg);
-     border-radius: 10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
 
-     padding: 10px;
      padding-bottom: 1px;
+}
+
+div.site-footer {
+     background-image: url(http://jquery.com/jquery-wp-content/themes/jquery/images/dark-grey-tile.png);
+
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+div.content {
+     background-image: url(images/paper.gif);
 }
